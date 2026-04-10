@@ -26,20 +26,31 @@ namespace QuanLyHoSoBenhNhan
             }
         }
 
-        private void pnlLichkham_Click(object sender, EventArgs e)
-        {
-            UCQuanlycakham lichkham = new UCQuanlycakham();
-            lichkham.Dock = DockStyle.Fill;
-            pnlDanhsach.Controls.Clear();
-            pnlDanhsach.Controls.Add(lichkham);
-        }
-
         private void pnlCadangcho_Click(object sender, EventArgs e)
         {
-            UCQuanlycakham cadangcho = new UCQuanlycakham();
-            cadangcho.Dock = DockStyle.Fill;
-            pnlDanhsach.Controls.Clear();
-            pnlDanhsach.Controls.Add(cadangcho);
+            fMain mainForm = this.FindForm() as fMain;
+            if (mainForm != null)
+            {
+                mainForm.MoDanhSachCaKham();
+            }
+        }
+
+        private void pnlHosokham_Click(object sender, EventArgs e)
+        {
+            fMain mainForm = this.FindForm() as fMain;
+            if (mainForm != null)
+            {
+                mainForm.MoDanhSachHoSo();
+            }
+        }
+
+        private void pnlTaikhoan_Click(object sender, EventArgs e)
+        {
+            fMain mainForm = this.FindForm() as fMain;
+            if (mainForm != null)
+            {
+                mainForm.MoThongTinTaiKhoan();
+            }
         }
     }
 }

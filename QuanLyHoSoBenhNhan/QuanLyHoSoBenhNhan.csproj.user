@@ -16,5 +16,11 @@
     <Compile Update="UCQuanlyhethong.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UCQuanlyhoso.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCQuanlytaikhoan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

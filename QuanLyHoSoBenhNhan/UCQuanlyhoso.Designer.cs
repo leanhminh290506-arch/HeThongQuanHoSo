@@ -1,6 +1,6 @@
 ﻿namespace QuanLyHoSoBenhNhan
 {
-    partial class UCQuanlycakham
+    partial class UCQuanlyhoso
     {
         /// <summary> 
         /// Required designer variable.
@@ -142,13 +142,12 @@
             panel8.Size = new Size(927, 21);
             panel8.TabIndex = 0;
             // 
-            // UCQuanlycakham
+            // UCQuanlyhoso
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(panel1);
-            Margin = new Padding(3, 2, 3, 2);
-            Name = "UCQuanlycakham";
+            Name = "UCQuanlyhoso";
             Size = new Size(927, 483);
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);

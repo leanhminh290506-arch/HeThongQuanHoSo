@@ -24,3 +24,6 @@ D:\C#\QuanLyHoSoBenhNhan\QuanLyHoSoBenhNhan\bin\Debug\net9.0-windows\QuanLyHoSoB
 D:\C#\QuanLyHoSoBenhNhan\QuanLyHoSoBenhNhan\bin\Debug\net9.0-windows\QuanLyHoSoBenhNhan.pdb
 D:\C#\QuanLyHoSoBenhNhan\QuanLyHoSoBenhNhan\obj\Debug\net9.0-windows\QuanLyHoSoBenhNhan.genruntimeconfig.cache
 D:\C#\QuanLyHoSoBenhNhan\QuanLyHoSoBenhNhan\obj\Debug\net9.0-windows\ref\QuanLyHoSoBenhNhan.dll
+D:\C#\QuanLyHoSoBenhNhan\QuanLyHoSoBenhNhan\obj\Debug\net9.0-windows\QuanLyHoSoBenhNhan.sourcelink.json
+D:\C#\QuanLyHoSoBenhNhan\QuanLyHoSoBenhNhan\obj\Debug\net9.0-windows\QuanLyHoSoBenhNhan.UCQuanlyhoso.resources
+D:\C#\QuanLyHoSoBenhNhan\QuanLyHoSoBenhNhan\obj\Debug\net9.0-windows\QuanLyHoSoBenhNhan.UCQuanlytaikhoan.resources

@@ -5,7 +5,7 @@ namespace QuanLyHoSoBenhNhan
     public partial class fLogin : Form
     {
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
-        private static extern Int32 SendMessage(
+        public static extern Int32 SendMessage(
     IntPtr hWnd,
     int msg,
     int wParam,

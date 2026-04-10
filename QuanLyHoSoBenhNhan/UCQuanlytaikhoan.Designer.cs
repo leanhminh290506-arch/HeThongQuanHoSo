@@ -1,6 +1,6 @@
 ﻿namespace QuanLyHoSoBenhNhan
 {
-    partial class UCQuanlycakham
+    partial class UCQuanlytaikhoan
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,31 +29,42 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            panel2 = new Panel();
             panel3 = new Panel();
             panel5 = new Panel();
             panel7 = new Panel();
             panel6 = new Panel();
             panel4 = new Panel();
-            panel2 = new Panel();
+            panel8 = new Panel();
             panel9 = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
-            panel8 = new Panel();
+            panel10 = new Panel();
             panel1.SuspendLayout();
+            panel2.SuspendLayout();
             panel3.SuspendLayout();
             panel5.SuspendLayout();
-            panel2.SuspendLayout();
+            panel8.SuspendLayout();
             panel9.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.Controls.Add(panel3);
             panel1.Controls.Add(panel2);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(927, 483);
-            panel1.TabIndex = 1;
+            panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(panel3);
+            panel2.Controls.Add(panel8);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(927, 483);
+            panel2.TabIndex = 2;
             // 
             // panel3
             // 
@@ -99,15 +110,15 @@
             panel4.Size = new Size(311, 373);
             panel4.TabIndex = 0;
             // 
-            // panel2
+            // panel8
             // 
-            panel2.Controls.Add(panel9);
-            panel2.Controls.Add(panel8);
-            panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(0, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(927, 110);
-            panel2.TabIndex = 0;
+            panel8.Controls.Add(panel9);
+            panel8.Controls.Add(panel10);
+            panel8.Dock = DockStyle.Top;
+            panel8.Location = new Point(0, 0);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(927, 110);
+            panel8.TabIndex = 0;
             // 
             // panel9
             // 
@@ -134,26 +145,26 @@
             tableLayoutPanel1.Size = new Size(927, 89);
             tableLayoutPanel1.TabIndex = 0;
             // 
-            // panel8
+            // panel10
             // 
-            panel8.Dock = DockStyle.Top;
-            panel8.Location = new Point(0, 0);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(927, 21);
-            panel8.TabIndex = 0;
+            panel10.Dock = DockStyle.Top;
+            panel10.Location = new Point(0, 0);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(927, 21);
+            panel10.TabIndex = 0;
             // 
-            // UCQuanlycakham
+            // UCQuanlytaikhoan
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(panel1);
-            Margin = new Padding(3, 2, 3, 2);
-            Name = "UCQuanlycakham";
+            Name = "UCQuanlytaikhoan";
             Size = new Size(927, 483);
             panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel5.ResumeLayout(false);
-            panel2.ResumeLayout(false);
+            panel8.ResumeLayout(false);
             panel9.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -161,14 +172,15 @@
         #endregion
 
         private Panel panel1;
+        private Panel panel2;
         private Panel panel3;
         private Panel panel5;
         private Panel panel7;
         private Panel panel6;
         private Panel panel4;
-        private Panel panel2;
+        private Panel panel8;
         private Panel panel9;
         private TableLayoutPanel tableLayoutPanel1;
-        private Panel panel8;
+        private Panel panel10;
     }
 }
